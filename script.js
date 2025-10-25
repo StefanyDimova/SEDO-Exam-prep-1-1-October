@@ -18,9 +18,6 @@ function calculateAndDisplay(fn) {
     document.getElementById('result').textContent = 'Please fill both inputs';
     return;
   }
-
-  const a = Number(rawA);
-  const b = Number(rawB);
   document.getElementById('result').textContent = fn(a, b);
 }
 
